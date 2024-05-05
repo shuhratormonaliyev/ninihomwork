@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+   font-family: 'Raleway';
+}
+.container {
+    max-width: 1600px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.logo {
+    width: 122px;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 143px;
+}
+.ul ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.ul ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #282B22;
+    text-decoration: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.ul ul li a:hover {
+   color: #AE7B3C;
+   transform: scale(1.3);
+}
+.header .images {
+    width: 49px;
+    gap: 15px;
+    /* padding-right: 146px; */
+    display: flex;
+}
+.header .images button {
+    border: none;
+    background-color: white;
+}
+.header .images button img{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.header .images button img:hover{
+    transform: scale(1.3);
+}
+.header .phone {
+    display: flex;
+    gap: 7px;
+    padding-right: 103px;
+}
+.header .phone img{
+    cursor: pointer;
+}
+.header .phone h4{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
+.card {
+    position: relative;
+    opacity: linear-gradient(180deg, rgba(0, 0, 0, 0.2) -13.19%, rgba(0, 0, 0, 0.85) 94.01%);
+    height: 667px;
+    padding-top: 63px;
+    padding-top: 20px;
+    width: 1600px;
+    height: 667px;
+    background-image: url(../images/backroundimg.png);
+    /* position: relative; */
+    /* color: linear-gradient(180deg, rgba(0, 0, 0, 0.2) -13.19%, rgba(0, 0, 0, 0.85) 94.01%); */
+}
+.card .card-one img{
+    height: 687px;
+    width: 1600px;
+}
+.card .card-text h1{
+    font-family: 'Lato';
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 446px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+.card .card-text p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    width: 537px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.card .fast {
+    padding-top: 20px;
+    padding-left: 670px;
+}
+.card-text .fast button{
+    width: 260px;
+    background-color: #AE7B3C;
+    box-shadow: 0px 20px 25px 0px #0000000D;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.card-text .fast button:hover {
+    transform: scale(1.1);
+}
+.card-text .fast button span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+
+
+
+/* footer qismi */
+.footer-images {
+    height: 596px;
+    width: 1200px;
+}
+.footer-images h2{
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 57.5px;
+    text-align: center;
+    height: 58px;
+    width: 488px;
+    color: #282B22;
+}
+.footer-one {
+    width: 384px;
+    height: 458px;
+}
+.card-button {
+    margin-top: 120px;
+    height: 57px;
+    top: 678px;
+    left: 200px;
+    width: 1200px;
+    display: flex;
+    border: 1px solid #FFFFFF;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.card-button .card-img {
+    display: flex;
+    gap: 25px;
+    margin-left: 0px;
+    padding-top: 41px;
+    cursor: pointer;
+}
+.card-button .card-footer {
+    padding-top: 25px;
+    cursor: pointer;
+    gap: 15px;
+    display: flex;
+    margin-right: -2px;
+}
+.card-button .card-footer button{
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.5s;
+    height: 32px;
+    top: 703px;
+    left: 1368px;
+    border: 1px 0px 0px 0px;
+    width: 32px;
+    padding-left: 0px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) -13.19%, rgba(0, 0, 0, 0.85) 94.01%);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.card-button .card-footer button:hover {
+    transform: scale(1.3);
+}
+.card-button .card-footer button span {
+
+    width: 10px;
+    height: 16px;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+}
+.footer-images {
+    width: 1200px;
+    height: 596px;
+    padding-top: 140px;
+}
+.footer-images h2 {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 57.5px;
+    text-align: center;
+    color: #282B22;
+}
+.footer-one {
+   display: flex;
+   gap: 29px;
+   margin-left: 55px;
+   padding-top: 60px;
+}
+.footer-one .card-wrapper {
+    width: 384px;
+    height: 458px;
+    border: 1px solid #282B22;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+}
+.card-wrapper p{
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #7b7d77;
+    width: 28px;
+    margin-left: 30px;
+}
+.card-wrapper h6{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #3D4A39;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+.card-wrapper img {
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+
+
+
+
+
