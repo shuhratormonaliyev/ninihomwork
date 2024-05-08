@@ -1,0 +1,141 @@
+.second_part{
+    width: 1600px;
+    height: 688px;
+    border: 1px solid #333;
+    margin: auto;
+    background: #3D4A39;
+    .second_part_container{
+        width: 1000px;
+        height: 488px;
+        margin: 100px auto;
+        .part_name{
+            h2{
+                
+            font-size: 46px;
+            font-weight: 600;
+            line-height: 57.5px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #fff;
+            }            
+        }
+        
+    }
+}
+.choices {
+    
+    .first_line {
+        width: 1000px;
+        display: flex;
+
+        margin-top: 70px;
+        margin-bottom: 72px;
+        justify-content: space-between;
+        .product {
+            
+            
+           
+        }
+        .product:nth-child(1) {
+            margin-left: 50px;
+            width: 108px;
+            height: 126px;
+            img {
+                margin: 0 7px;
+            }
+            p {
+                margin-top:17px;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 31.2px;
+                color: rgba(255, 255, 255,0.5);
+
+            }
+        }
+        .product:nth-child(2) {
+            width: 148px;
+            height: 130px;
+            margin-left: 76px;
+            img {
+                margin:5px 51px;
+            }
+            p {
+                margin-top:35px;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 31.2px;
+                color: rgba(255, 255, 255,0.5);
+
+            }
+        }
+        .product:nth-child(3) {
+            width: 242px;
+            height: 124px;
+            img {
+                margin: 5px 75px;
+            }
+            p {
+                margin-top:11px;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 31.2px;
+                color: rgba(255, 255, 255,0.5);
+                
+            }
+        }
+    }
+    .second_line {
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        .product:nth-child(1) {
+            margin-left: 50px;
+            width: 108px;
+            height: 126px;
+            img {
+                margin: 0 20px;
+            }
+            p {
+                margin-top:23px;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 31.2px;
+                color: rgba(255, 255, 255,0.5);
+
+            }
+        }
+        .product:nth-child(2) {
+            width: 278px;
+            height: 130px;
+            margin-right: -60px;
+            img {
+                margin:5px 100px;
+            }
+            p {
+                margin-top:10px;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 31.2px;
+                color: rgba(255, 255, 255,0.5);
+
+            }
+        }
+        .product:nth-child(3) {
+            width: 242px;
+            height: 124px;
+            img {
+                margin: 5px 75px;
+            }
+            p {
+                margin-top:11px;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 31.2px;
+                color: rgba(255, 255, 255,0.5);
+                
+            }
+        }
+    }
+}

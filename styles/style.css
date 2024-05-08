@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     margin: 0 auto;
+    /* font-family: sans-serif; */
+
 }
 body{
    font-family: 'Raleway';
@@ -266,6 +268,40 @@ body{
     justify-content: center;
     align-items: center;
     padding-left: 30px;
+}
+/* ===========2qism============= */
+.nine {
+    height: 688px;
+    width: 1600px;
+    background-color: #3D4A39;
+    margin-top: 280px;
+}
+.nine h2{
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 57.5px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-left: 537px;
+}
+.door {
+    padding-top: 70px;
+    display: flex;
+}
+.door .nine-one {
+    width: 108px;
+    border: #FFFFFF;
+    margin-left: 333px;
+
+}
+.door .nine-two {
+    margin-left: 54px;
+}
+.door .nine-three {
+    padding-left: -1999px;
+    width: 241px;
+
 }
 
 
